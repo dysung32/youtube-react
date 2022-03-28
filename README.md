@@ -1,8 +1,8 @@
 # Cloning YouTube with React
 
-### Clone 시작 전 필요한 데이터 Check !!
+### 시작 전 필요한 **데이터 Check !!**
 
-> 홈 화면
+> **홈 화면**
 > * 영상 제목
 > * 영상 썸네일
 > * 유튜브 채널 이름
@@ -13,7 +13,7 @@
 
 <br>
 
-> 탐색 화면
+> **탐색 화면**
 > * 영상 제목
 > * 영상 썸네일
 > * 유튜브 채널 이름
@@ -23,7 +23,7 @@
 
 <br>
 
-> 구독 화면
+> **구독 화면**
 > * 영상 제목
 > * 영상 썸네일
 > * 유튜브 채널 이름
@@ -33,11 +33,12 @@
 > * 영상 설명
 
 <br>
+<hr />
 
-### 데이터 준비
-유튜브에서 제공하는 API 사용 (정제된 ver.)
+### **데이터 준비**
+유튜브에서 제공하는 API 사용 *(정제된 ver.)*
 
-youtubeData.json 구조 파악
+**youtubeData.json** 구조 파악
 
 | API key | 설명 |
 | ----- | ----- |
@@ -54,4 +55,8 @@ youtubeData.json 구조 파악
 | channelUrl | 유튜브 채널 링크 |
 | channelThumbnail | 유튜브 채널 썸네일 |
 
+<br>
+<hr />
 
+### **컴포넌트 분리**
+<img src="./src_folder_structure.png" width="200px" alt="srcFolder" />
