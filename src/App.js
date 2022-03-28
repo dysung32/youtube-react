@@ -1,8 +1,10 @@
 // src/App.js
 import './App.css';
+import youtubeData from './data/youtubeData.json';
 
 function App() {
-  return <div>시작</div>;
+  console.log('youtubeData:', youtubeData);
+  return <div>React로 데이터 불러오기</div>;
 }
 
 export default App;
