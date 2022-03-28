@@ -1,10 +1,13 @@
 // src/App.js
-import './App.css';
+import Layout from './components/shared/Layout';
 import youtubeData from './data/youtubeData.json';
 
 function App() {
-  console.log('youtubeData:', youtubeData);
-  return <div>React로 데이터 불러오기</div>;
+  return (
+    <Layout>
+      <div>콘텐츠!</div>
+    </Layout>
+  );
 }
 
 export default App;

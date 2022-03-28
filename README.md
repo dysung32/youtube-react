@@ -59,4 +59,13 @@
 <hr />
 
 ### **컴포넌트 분리**
-<img src="./src_folder_structure.png" width="200px" alt="srcFolder" />
+<br>
+
+**공통(Common)** 컴포넌트
+
+| 컴포넌트 명 | 설명 |
+| ----- | ----- |
+| Header | 상단 고정 바 |
+| Menu | 좌측 메뉴 바 |
+| Layout | 컨텐츠 영역 |
+
