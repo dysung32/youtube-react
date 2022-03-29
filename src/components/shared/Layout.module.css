@@ -11,6 +11,7 @@
 }
 .layout {
   display: flex;
+  margin-top: 56px; /* Header 컴포넌트 높이만큼 콘텐츠를 아래로 밀어주기 */
   flex: 1;
 }
 .contents {
