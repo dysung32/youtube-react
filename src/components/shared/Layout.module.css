@@ -15,5 +15,6 @@
   flex: 1;
 }
 .contents {
+  margin-left: 240px; /* Menu width 만큼 왼쪽 여백 주기 */
   flex: 1;
 }
