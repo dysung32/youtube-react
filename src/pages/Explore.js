@@ -1,12 +1,12 @@
-// 홈 컴포넌트
+// 탐색 컴포넌트
 import Layout from '../components/shared/Layout';
 
-function Home() {
+function Explore() {
   return (
     <Layout>
-      <div>*홈</div>
+      <div>*탐색</div>
     </Layout>
   );
 }
 
-export default Home;
+export default Explore;
