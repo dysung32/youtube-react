@@ -73,4 +73,23 @@
 <hr />
 
 ### **라이브러리 활용**
-**react-icons** 라이브러리 설치를 통한 아이콘 구현
+<br>
+
+**react-icons** 라이브러리 설치를 통한 아이콘 구현  
+[https://react-icons.github.io/react-icons](https://react-icons.github.io/react-icons)
+
+<br>
+<hr />
+
+### **구현 순서**
+<br>
+
+
+1. **탐색 페이지** (Explore.js)  
+홈페이지와 구독 페이지에선 추가적인 기능이 필요하기 때문에 **탐색 페이지를 먼저 구현**한다.
+
+2. **홈페이지** (Home.js)  
+**필터링** 추가 기능 필요
+
+3. **구독 페이지** (Subscription.js)  
+**시간측정** 추가 기능 필요
