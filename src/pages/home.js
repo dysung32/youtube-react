@@ -6,7 +6,7 @@ import HomeFilter from '../components/home/HomeFilter';
 import HomeCard from '../components/home/HomeCard';
 import {useState} from 'react';
 
-const target=['전체', 'BTS', 'LISA', '아이폰'];
+const target = ['전체', 'Music', 'Entertainment', 'Comedy'];
 
 function Home() {
   const [filter, setFilter] = useState('전체');
@@ -14,13 +14,14 @@ function Home() {
   function mapFunc(data, index) {
     return (
       <HomeFilter filter={filter} text={data} onClickFilter={function() {
-        setFilter(data);
-      }} key={`home-filter-${index}`} />
+          setFilter(data);
+        }}
+        key={`home-filter-${index}`} />
     );
   }
-  
+
   function filterFunc(data) {
-    if(filter === '전체' || data.title.includes(filter) || data.description.includes(filter))
+    if (filter === '전체' || data.category === filter)
       return true;
     return false;
   }
@@ -29,7 +30,9 @@ function Home() {
     <Layout activeMenu="home">
       <div className={styles.header}>{target.map(mapFunc)}</div>
       <div className={styles.container}>
-        <div className={styles.grid}>{youtubeData['data'].filter(filterFunc).map(HomeCard)}</div>
+        <div className={styles.grid}>
+          {youtubeData['data'].filter(filterFunc).map(HomeCard)}
+        </div>
       </div>
     </Layout>
   );
