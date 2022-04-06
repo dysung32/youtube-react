@@ -19,6 +19,9 @@
   margin-left: 240px; /* Menu width 만큼 왼쪽 여백 주기 */
   flex: 1;
 }
+.contentsHidden {
+  margin-left: 0;
+}
 
 @media screen and (max-width: 911px) {
   .contents {
