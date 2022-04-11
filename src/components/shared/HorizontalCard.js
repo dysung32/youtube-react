@@ -1,10 +1,10 @@
-// src/components/explore/ExploreCard.js
-import styles from './ExploreCard.module.css';
+// src/components/explore/HorizontalCard.js
+import styles from './HorizontalCard.module.css';
 import moment from 'moment';
 import 'moment/locale/ko';
 import {ProcessViewCount} from '../../utils';
 
-function ExploreCard({data}) {
+function HorizontalCard({data}) {
   return(
     <a href={`https://www.youtube.com/watch?v=${data.id}`}>
       <div className={styles.card}>
@@ -29,4 +29,4 @@ function ExploreCard({data}) {
   );
 }
 
-export default ExploreCard;
+export default HorizontalCard;
