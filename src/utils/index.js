@@ -20,3 +20,5 @@ function ProcessViewCount(viewCount) {
 
   
 }
+
+export {ProcessViewCount};

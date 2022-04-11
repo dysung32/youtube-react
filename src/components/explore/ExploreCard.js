@@ -1,5 +1,8 @@
 // src/components/explore/ExploreCard.js
 import styles from './ExploreCard.module.css';
+import moment from 'moment';
+import 'moment/locale/ko';
+import {ProcessViewCount} from '../../utils';
 
 function ExploreCard({data}) {
   return(
@@ -12,8 +15,12 @@ function ExploreCard({data}) {
             <a href={`https://www.youtube.com/channel/${data.channelId}`} className={styles.uploader}>
               {data.channelTitle}
             </a>
-            <div className={styles.view}>{data.viewCount}</div>
-            <div className={styles.time}>{data.date}</div>
+            <div className={styles.view}>
+              {ProcessViewCount(data.viewCount)}
+            </div>
+            <div className={styles.time}>
+              {moment(data.date).fromNow()}
+            </div>
           </div>
           <div className={styles.desc}>{data.description}</div>
         </div>
