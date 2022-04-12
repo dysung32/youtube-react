@@ -6,7 +6,7 @@ import HomeFilter from '../components/home/HomeFilter';
 import HomeCard from '../components/home/HomeCard';
 import {useState} from 'react';
 
-const target = ['전체', '현아', 'LISA', '아이폰'];
+const target = ['전체', 'Music', '현아', 'LISA', '아이폰'];
 
 function Home() {
   const [filter, setFilter] = useState('전체');

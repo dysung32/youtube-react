@@ -18,9 +18,12 @@
 .contents {
   margin-left: 240px; /* Menu width 만큼 왼쪽 여백 주기 */
   flex: 1;
+  background-color: #f2f2f2;
 }
 .contentsHidden {
+  flex: 1;
   margin-left: 0;
+  background-color: #f2f2f2;
 }
 
 @media screen and (max-width: 911px) {
