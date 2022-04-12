@@ -1,5 +1,11 @@
 # Cloning YouTube with React
 
+### **최종 완성 페이지**
+[바로가기](https://dysung32.github.io/youtube-react/)
+
+<br>
+<hr />
+
 ### 시작 전 필요한 **데이터 Check !!**
 
 > **홈 화면**
@@ -101,3 +107,4 @@
 
 반응형 웹 구현에는 여러가지 방법이 있지만,  
 그 중 **미디어 쿼리**의 방법을 사용함.
+
